@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+  <body>
+    <script>
+        var lang = navigator.language || navigator.userLanguage;
+        if (lang.indexOf('en') == 0) {
+          window.location = "/en/main";
+        } else if (lang.indexOf('zh-CN') == 0) {
+          window.location = "/zh-CN/main"
+        }
+      </script>
+  </body>
+</html>
